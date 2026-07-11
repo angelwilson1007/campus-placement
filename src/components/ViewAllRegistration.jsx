@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import NavRegistration from "./NavRegistration";
 
 const ViewAllRegistration = () => {
     const[data,changeData]= useState([])
@@ -20,6 +21,7 @@ const ViewAllRegistration = () => {
        
     return (
         <div>
+            <NavRegistration/>
             
 
             <div className="container mt-4">
